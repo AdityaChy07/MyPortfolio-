@@ -1,0 +1,30 @@
+<?php include "header.php"; ?>
+
+<div class="container">
+    <h2><b>About Me</b></h2>
+    <p>
+        My name is <b>Aditya</b>, and I am from <strong>Darbhanga, Bihar</strong>. 
+        I completed my Class 10 at <i>Rose Public School</i>. 
+        With a strong interest in engineering, I moved to <b>Kota</b> for 
+        <strong>JEE Preparation</strong>, where I studied at 
+        <i>Allen Institute</i> and secured <b>94.75<sup>%ile</sup></b>.
+    </p>
+    <br>
+    <p>
+        Apart from academics, I have always been passionate about 
+        <strong>cricket</strong>. I have played in numerous tournaments and have 
+        been appreciated by many senior players for my performance, dedication, 
+        and sportsmanship. Cricket has helped me build qualities such as 
+        <i>teamwork</i>, <b>discipline</b>, and <strong>leadership</strong>.
+    </p>
+    <br>
+    <p>
+        I am currently pursuing my <b>B.Tech</b> at 
+        <strong>Jaypee University</strong>. During my college journey, my interest 
+        has gradually shifted toward <b>web</b> and <i>app development</i>. 
+        I am constantly working on improving my skills in this field to build 
+        impactful digital solutions. 
+    </p>
+</div>
+
+<?php include "footer.php"; ?>

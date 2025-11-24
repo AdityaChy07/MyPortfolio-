@@ -1,0 +1,49 @@
+<?php include "header.php"; ?>
+
+<div class="container">
+    <h2><b>Contact Me</b></h2>
+
+    <?php
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $name = htmlspecialchars($_POST['name']);
+        $email = htmlspecialchars($_POST['email']);
+        $message = htmlspecialchars($_POST['message']);
+
+        echo "<div style='background: #e6f7e6; padding: 15px; border-radius: 8px; margin-bottom: 20px;'>
+                <h3>Form Submitted Successfully!</h3>
+                <p><strong>Name:</strong> $name</p>
+                <p><strong>Email:</strong> $email</p>
+                <p><strong>Message:</strong> $message</p>
+              </div>";
+    }
+    ?>
+
+
+<div class="social-section">
+    <h2 style="color:black "  > You can connect With Me on</h2>
+
+    <div class="social-links">
+        <a href="https://www.instagram.com/invites/contact/?igsh=1tfk5xie5oa75&utm_content=w482w2s" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/aditya-choudhary-993909313/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/AdityaChy07" target="_blank">GitHub</a>
+        <a href="mailto:adityachy417@gmail.com" target="_blank">Email</a>
+    </div>
+</div>
+
+    <form action="" method="post">
+        <label>Your Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Your Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Your Message:</label><br>
+        <textarea name="message" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+
+</div>
+
+<?php include "footer.php"; ?>
